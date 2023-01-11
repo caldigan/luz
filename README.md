@@ -16,8 +16,8 @@ Windows Desktop App to control monitor brightness using Win32 API and ImGui
 ## Libraries used
 
 ### C++
-- Dear ImGui
-- mINI
+- [Dear ImGui](https://github.com/ocornut/imgui)
+- [mINI](https://github.com/pulzed/mINI)
 
 ### Arduino
-- BH1750
+- [BH1750](https://github.com/claws/BH1750)

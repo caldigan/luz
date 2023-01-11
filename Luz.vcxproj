@@ -164,10 +164,6 @@
     <ClCompile Include="..\..\..\imgui-master\imgui_widgets.cpp" />
     <ClCompile Include="..\..\..\imgui-master\misc\cpp\imgui_stdlib.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="luz_app.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="luz_app.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

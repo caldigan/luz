@@ -1,17 +1,5 @@
 #pragma once
-#include <iostream>
-#include <vector>
-#include <string>
-#include <span>
-#include "imgui.h"
-#include <Windows.h>
-#include <physicalmonitorenumerationapi.h>
-#include <highlevelmonitorconfigurationapi.h>
-#include "misc/cpp/imgui_stdlib.h"
 
-struct Monitor {
-	int brightness;
-};
 
 void configFileRead(std::string option, std::string& val);
 void configFileWrite(std::string option, std::string newValue);
@@ -37,6 +25,5 @@ private:
 	std::vector<Monitor> m_monitors;
 	std::string m_displayedPortName;
 	std::string m_savedPortName;
-
 	bool m_autoBrightness;
 };
